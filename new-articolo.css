@@ -1,0 +1,67 @@
+/**
+* Created by CODEQ on 17/03/2016.
+*/
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css?family=Duru+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 11pt;
+    background-color: whitesmoke;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #6c6c6c;
+}
+
+::-webkit-scrollbar {
+    width: 8pt;
+    height: 5pt;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: rgba(43, 43, 43, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2pt;
+    border-radius: 2pt;
+    background: rgba(243, 204, 142, 1);
+    position: absolute;
+    width: 5pt;
+}
+
+/* -------------------------------------------
+#a_foto
+---------------------------------------------- */
+img.foto {
+    height: 30pt;
+    max-width: 100pt;
+    margin: 2pt;
+    border-radius: 2pt;
+    box-shadow: 0 0 3pt #bebebe;
+}
+
+/* -------------------------------------------
+input bottoni i textarea
+---------------------------------------------- */
+i {
+    cursor: pointer;
+}
