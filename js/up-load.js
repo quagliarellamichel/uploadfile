@@ -44,7 +44,7 @@ function UpLoad() {
         $.ajax({
             url: "ajax_file.php", // pagina upload immagini
             type: "POST",
-            data: new FormData(form),
+            data: new FormData(this),
             contentType: false,
             cache: false,
             processData: false,
