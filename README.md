@@ -16,7 +16,12 @@ cartelle e da diversi bottoni in un unica pagina HTML
 senza dover riscrivere il form action
 <br>
 PS.
+<br>
 ricordatevi di impostare i permessi di scrittura sulle cartelle di destinazione
+<br>
 img/case
+<br>
 img/foto
+<br>
 img/paesi
+<br>
